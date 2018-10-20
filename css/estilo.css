@@ -269,6 +269,15 @@ body{
 		margin-left: 8%;
 	}
 }
+@media screen and (min-width: 400px) {
+	.i-rodape a{
+		margin-left: 9%;
+	}
+		.btn-f{
+		top: 45px;
+		right: 45px;
+	}
+}
 @media screen and (min-width: 411px) {
 	.i-rodape a{
 		margin-left: 9%;
@@ -295,9 +304,23 @@ body{
 		font-size: 1.3em;
 	}
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 460px) {
 	.i-rodape a{
 		margin-left: 10%;
+	}
+}
+@media screen and (min-width: 500px) {
+	.btn-f{
+		top: 55px;
+		right: 60px;
+	}
+	.i-rodape a{
+		margin-left: 11%;
+	}
+}
+@media screen and (min-width: 600px) {
+	.i-rodape a{
+		margin-left: 12%;
 	}
 	.btn-f{
 		top: 55px;
