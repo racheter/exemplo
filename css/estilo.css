@@ -49,7 +49,7 @@ body{
 }
 .header li{
 	float: left;
-	margin-top: 9%;
+	margin-top: 8%;
 	font-size: 0;
 }
 .menu{
@@ -235,7 +235,16 @@ body{
 	padding: 1.5% 7%;
 	text-align: center;
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 240px) {
+	.i-rodape a{
+		margin-left: 1.5%;
+		padding: 3% 4%;
+	}
+}
+@media screen and (min-width: 360px) {
+	.i-rodape a{
+		margin-left: 6%;
+	}
 	.btn-f{
 		top: 35px;
 		right: 35px;
@@ -247,7 +256,18 @@ body{
 		font-size: 1.1em;
 	}
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 375px) {
+	.i-rodape a{
+		margin-left: 8%;
+	}
+}
+@media screen and (min-width: 411px) {
+	.i-rodape a{
+		margin-left: 9%;
+	}
+	.social{
+		font-size: 1.2em;
+	}
 	.btn-f{
 		top: 40px;
 		right: 45px;
@@ -259,10 +279,24 @@ body{
 		font-size: 1.3em;
 	}
 }
+@media screen and (min-width: 414px) {
+	.i-rodape a{
+		margin-left: 9%;
+	}
+	.social{
+		font-size: 1.3em;
+	}
+}
 @media screen and (min-width: 600px) {
+	.i-rodape a{
+		margin-left: 10%;
+	}
 	.btn-f{
-		top: 50px;
-		right: 60px;
+		top: 55px;
+		right: 65px;
+	}
+	.social{
+		font-size: 1.4em;
 	}
 	.header li{
 		font-size: 1.2em;
@@ -274,29 +308,60 @@ body{
 		font-size: 1.6em;
 	}
 }
+@media screen and (min-width: 640px) {
+	.i-rodape a{
+		margin-left: 11%;
+	}
+	.btn-f{
+		top: 55px;
+		right: 70px;
+	}
+	.social{
+		font-size: 1.6em;
+	}
+	.header li{
+		font-size: 1.2em;
+	}
 @media screen and (min-width: 720px) {
+	.i-rodape a{
+		margin-left: 12%;
+	}
+	.social{
+		font-size: 2em;
+	}
 	.btn-f{
 		top: 65px;
 		right: 85px;
 	}
-	h2{
-		font-size: 1.7em;
-	}
-	p{
-		font-size: 1.6em;
-	}
-}
-}
 @media screen and (min-width: 768px) {
 	.btn-f{
 		top: 65px;
 		right: 85px;
 	}
-	h2{
-		font-size: 1.7em;
+@media screen and (min-width: 800px) {
+	.btn-f{
+		top: 75px;
+		right: 95px;
 	}
-	p{
-		font-size: 1.6em;
+	.i-rodape a{
+		margin-left: 12%;
+	}
+
+@media screen and (min-width: 950px) {
+	.btn-f{
+		top: 85px;
+		right: 110px;
+	}
+	.i-rodape a{
+		margin-left: 12%;
 	}
 }
+@media screen and (min-width: 1024px) {
+	.btn-f{
+		top: 90px;
+		right: 120px;
+	}
+	.i-rodape a{
+		margin-left: 12%;
+	}
 }
