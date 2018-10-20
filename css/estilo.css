@@ -249,9 +249,9 @@ body{
 		top: 30px;
 		right: 30px;
 	}
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 355px) {
 	.i-rodape a{
-		margin-left: 6%;
+		margin-left: 7%;
 	}
 	.btn-f{
 		top: 35px;
