@@ -215,6 +215,7 @@ body{
 	height: 10%;
 }
 .i-rodape a{
+	text-align: center;
 	float: left;
 	margin: 3.5%;
 	padding: 4% 5%;
@@ -299,9 +300,6 @@ body{
 }
 }
 @media screen and (min-width: 768px) {
-	.i-rodape a{
-		margin-left: 13%;
-	}
 	.btn-f{
 		top: 65px;
 		right: 85px;
