@@ -282,9 +282,25 @@ body{
 		font-size: 1.6em;
 	}
 }
+@media screen and (min-width: 720px) {
+	.i-rodape a{
+		margin-left: 13%;
+	}
+	.btn-f{
+		top: 65px;
+		right: 85px;
+	}
+	h2{
+		font-size: 1.7em;
+	}
+	p{
+		font-size: 1.6em;
+	}
+}
+}
 @media screen and (min-width: 768px) {
 	.i-rodape a{
-		margin-left: 12%;
+		margin-left: 13%;
 	}
 	.btn-f{
 		top: 65px;
