@@ -241,6 +241,14 @@ body{
 		padding: 3% 4%;
 	}
 }
+@media screen and (min-width: 300px) {
+	.i-rodape a{
+		margin-left: 5%;
+	}
+	.btn-f{
+		top: 30px;
+		right: 30px;
+	}
 @media screen and (min-width: 360px) {
 	.i-rodape a{
 		margin-left: 6%;
